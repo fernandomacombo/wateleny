@@ -92,34 +92,33 @@ section > .header-art h3 {
 .caixa-main .caixa-des h1 {
   font-size: 3em;
   text-align: center;
-  margin-bottom:0;
+  margin-bottom: 0;
 }
 
 .caixa-main .caixa-des h2 {
   font-size: 4em;
 }
 
-#testemunhos > .testemunhos{
-     width: 100%;
-   }
+#testemunhos > .testemunhos {
+  width: 100%;
+}
 
-   .ilustracoes .wrap img{
-     max-width: 100%;    
-   }
- 
-   #pagina_sobre .fundo_escuro .emblulho_geral .conteudo_sobre img{
-     max-width: 400px;
-      }
+.ilustracoes .wrap img {
+  max-width: 100%;
+}
 
+#pagina_sobre .fundo_escuro .emblulho_geral .conteudo_sobre img {
+  max-width: 400px;
+}
 
-      section #testemunhos > .testemunhos{
-          max-width: 100%;
-          
-        }
+section #testemunhos > .testemunhos {
+  max-width: 100%;
+}
 
-        .porque .porque_embrulho article{
-          max-width: 100%
-         
-             
-             }
-       
+.porque .porque_embrulho article {
+  max-width: 100%;
+}
+
+#contactos .contactos {
+  max-width: 100%;
+}

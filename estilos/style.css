@@ -64,12 +64,17 @@ header .caixa-header1 > div {
   position: relative;
 }
 
-header > .caixa-header1 div > div {
+.wrap-logo{
   display: flex;
   align-items: center;
+  color: #fff;
 }
 
-header > .caixa-header1 div > div > img {
+.wrap-logo h1{
+  font-family: var(--font1);
+}
+
+.logo {
   width: 3em;
   border-radius: 50%;
 }
@@ -500,6 +505,7 @@ section div.titulos h2 {
   align-items: center;
   flex-wrap: wrap;
   justify-content: space-between;
+
 
 }
 
