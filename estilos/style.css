@@ -49,6 +49,14 @@ header {
     no-repeat;
 }
 
+
+.py-1{
+  padding: 20px 0;
+}
+
+hr{
+  height: 0.1px;
+}
 .caixa-header1 {
   width: 100%;
   max-width: 1200px;
@@ -519,20 +527,22 @@ section div.titulos h2 {
 
 footer{
   padding: 20px;
+  max-width: 1200px;
+  margin: auto;
 
 }
 
 .wrap-footer .autor{
   color: var(--cor1);
-  padding: 10px 0px;
   }
 
 .wrap-footer .direitos{
-  color:fff;
+  color:#ffffff28;
   display: inline-block;
   }
 
   .wrap-p{
     display: flex;
     justify-content: space-between;
+    padding: 20px 0;
   }

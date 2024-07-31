@@ -125,3 +125,9 @@ section #testemunhos > .testemunhos {
   display: flex;
   align-items: center;
 }
+
+.wrap-p{
+  display: flex;
+  justify-content:center;
+
+}
