@@ -516,3 +516,23 @@ section div.titulos h2 {
   display: flex;
   align-items: center;
 }
+
+footer{
+  padding: 20px;
+
+}
+
+.wrap-footer .autor{
+  color: var(--cor1);
+  padding: 10px 0px;
+  }
+
+.wrap-footer .direitos{
+  color:fff;
+  display: inline-block;
+  }
+
+  .wrap-p{
+    display: flex;
+    justify-content: space-between;
+  }
