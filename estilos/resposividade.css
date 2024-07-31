@@ -125,9 +125,15 @@ section #testemunhos > .testemunhos {
   display: flex;
   align-items: center;
 }
+.posicao{
+  justify-content: center;
+}
+.wrap-footer .autor{
+margin: 5px;
+  }
 
 .wrap-p{
   display: flex;
-  justify-content:center;
+  justify-content:center;flex-wrap: wrap;
 
 }

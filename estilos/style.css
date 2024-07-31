@@ -534,6 +534,7 @@ footer{
 
 .wrap-footer .autor{
   color: var(--cor1);
+  margin-right: 10px;
   }
 
 .wrap-footer .direitos{
@@ -545,4 +546,5 @@ footer{
     display: flex;
     justify-content: space-between;
     padding: 20px 0;
+    align-items: center;
   }
