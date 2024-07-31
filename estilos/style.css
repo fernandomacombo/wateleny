@@ -1,0 +1,512 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "good vibration";
+  src: url(../font/GoodVibrations-Script-400.ttf);
+}
+
+@font-face {
+  font-family: Bourton;
+  src: url(../font/BourtonStripesB.ttf);
+}
+
+:root {
+  --cor1: #daa520;
+  --cor2: #4d4d4d;
+  --cor3: #a67c52;
+  --cor4: #ffffff2c;
+  --cor5: #ffffffa1;
+
+  --font1: "good vibration";
+  --font2: Bourton;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+ul {
+  list-style: none;
+}
+
+html,
+body {
+  background-color: rgb(0, 0, 0);
+  scroll-behavior: smooth;
+  animation-delay: 2s;
+}
+
+header {
+  background: rgb(245, 215, 150) url(../img/Bg1.jpg) center center/cover
+    no-repeat;
+}
+
+.caixa-header1 {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 10px;
+}
+header .caixa-header1 > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 5px;
+  color: #fff;
+  position: relative;
+}
+
+header > .caixa-header1 div > div {
+  display: flex;
+  align-items: center;
+}
+
+header > .caixa-header1 div > div > img {
+  width: 3em;
+  border-radius: 50%;
+}
+
+header > .caixa-header1 div > div h1 {
+  font-family: "good vibration";
+  font-weight: normal;
+  font-size: 2.5em;
+}
+
+header > .caixa-header1 div > nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header > .caixa-header1 div > nav > ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+header > .caixa-header1 div > nav > ul > li {
+  padding: 0 1em;
+  font-size: large;
+}
+
+header > .caixa-header1 div > nav > ul > li > a {
+  font-variant: small-caps;
+}
+
+header > .caixa-header1 div > nav > ul li a:hover {
+  border-bottom: 1px solid #a67c52;
+  color: #daa520;
+}
+
+header > .caixa-header1 div > nav > ul {
+  display: flex;
+}
+
+a.icon {
+  color: var(--cor3);
+  font-size: 1.2em;
+  margin: 0 0.2em;
+}
+
+a.icon:hover {
+  color: var(--cor1);
+}
+
+.traco {
+  margin: 0 10px;
+  background-color: #5c5b5b;
+  width: 0.1px;
+  height: 40px;
+}
+
+section > .header-art {
+  padding: 60px 0;
+  line-height: 45px;
+}
+section > .header-art > h1 {
+  color: var(--cor1);
+  font-family: "good vibration";
+  font-weight: normal;
+  font-size: 4em;
+}
+
+section > .header-art h2 {
+  color: #fff;
+  font-family: Bourton;
+  font-weight: normal;
+  font-size: 5em;
+}
+section > .header-art h3 {
+  color: #fff;
+  font-family: Bourton;
+  font-weight: normal;
+  font-size: 13.5px;
+  letter-spacing: 2.2em;
+  line-height: 60px;
+}
+
+section > .header-art p {
+  color: #fff;
+  line-height: 25px;
+  padding: 10px 0;
+}
+
+.btn {
+  background-color: var(--cor3);
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.ajuste {
+  display: block;
+  text-align: center;
+  font-size: large;
+}
+
+.btn:hover {
+  background-color: var(--cor1);
+}
+
+.caixa-header2 {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 900px;
+  margin: auto;
+  margin-top: 20px;
+  padding-bottom: 30px;
+  position: relative;
+}
+
+.caixa-header2 article {
+  text-align: center;
+  border-radius: 10px;
+}
+
+.caixa-header2 > article > div {
+  background-color: #daa520;
+  padding-top: 97%;
+  line-height: 20px;
+  margin: 0 10px;
+  background: url(../img/a1.jpg) center center/cover no-repeat;
+}
+
+.caixa-header2 > article:nth-child(2) > div {
+  background-color: #daa520;
+  padding-top: 48.5%;
+  padding-bottom: 48.5%;
+  line-height: 20px;
+  color: #fff;
+}
+
+.caixa-header2 > article:nth-child(2) > div {
+  background: url(../img/a3.jpg) center center/cover no-repeat;
+}
+
+.caixa-header2 > article:nth-child(3) > div {
+  background: url(../img/a4.jpg) center right/cover no-repeat;
+}
+
+.caixa-header2 article > div > div {
+  background-color: #fff;
+  padding: 20px 5px;
+}
+
+.caixa-header2 article:nth-child(2) > div > div {
+  background-color: transparent;
+  padding: 20px 5px;
+}
+
+.caixa-header2 article > div > div > h2 {
+  font-family: var(--font1);
+}
+.caixa-header2 article > div > div > h3 {
+  font-family: var(--font2);
+}
+
+.caixa-header2 article > div > div > p {
+  margin: 20px 0;
+}
+.caixa-main {
+  background: url(../img/bg2.jpg) center center/cover no-repeat;
+}
+
+.caixa-main .caixa-des {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+  padding: 50px 0;
+}
+.caixa-main .caixa-des h1,
+.caixa-main .caixa-des h2 {
+  line-height: 65px;
+}
+
+.caixa-main .caixa-des h1 {
+  color: var(--cor1);
+  font-family: "good vibration";
+  font-weight: normal;
+  font-size: 4em;
+  text-shadow: 0.5px 0.5px 2px black;
+  text-align: left;
+  margin-bottom: -24px;
+  z-index: 1;
+  position: relative;
+}
+
+.caixa-main .caixa-des h2 {
+  color: #fff;
+  font-family: Bourton;
+  font-weight: normal;
+  font-size: 5em;
+  text-shadow: 1px 1px 2px black;
+}
+
+.caixa-main .caixa-des p {
+  color: #fff;
+  padding: 20px 0;
+  font-size: large;
+}
+
+.fundo {
+  background-color: #0000009a;
+}
+
+.menu {
+  display: none;
+}
+#testemunhos {
+  padding-top: 5px;
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#testemunhos > .testemunhos {
+  padding: 10px;
+  background-color: var(--cor2);
+  margin: 5px 5px;
+  max-width: 48%;
+  border-radius: 10px;
+}
+
+section #testemunhos div {
+  margin: 10px 0;
+}
+
+section .testemunhos div h5 {
+  font-size: small;
+  font-family: "Courier New", Courier, monospace;
+  padding-top: 20px;
+  text-align: end;
+}
+
+section .testemunhos div:first-child {
+  display: flex;
+  align-items: center;
+}
+
+section .testemunhos div:first-child img {
+  border-radius: 50%;
+  width: 60px;
+}
+
+section .testemunhos div:first-child h4 {
+  margin: 0 10px;
+}
+
+section div.titulos {
+  padding: 25px;
+  text-align: center;
+}
+section div.titulos h1 {
+  font-family: var(--font1);
+  font-size: 3em;
+  color: var(--cor1);
+  position: relative;
+  z-index: 1;
+}
+
+section div.titulos h2 {
+  font-family: var(--font2);
+  font-size: 3em;
+  color: var(--cor3);
+}
+section div.titulos h1,
+section div.titulos h2 {
+  line-height: 30px;
+}
+
+#pagina_sobre {
+  background: url(../img/sobre.jpg) center center/cover no-repeat fixed;
+  margin: 20px 0;
+}
+
+#pagina_sobre .fundo_escuro {
+  background-color: #000000a9;
+}
+
+#pagina_sobre .fundo_escuro .emblulho_geral .conteudo_sobre {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#pagina_sobre .fundo_escuro .emblulho_geral .conteudo_sobre img {
+  max-width: 450px;
+}
+
+#pagina_sobre .fundo_escuro .emblulho_geral .conteudo_sobre p {
+  max-width: 500px;
+  color: #fff;
+  text-align: justify;
+  padding: 20px;
+  font-size: 17px;
+}
+
+#pagina_sobre .fundo_escuro .embrulho {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.ilustracoes .wrap {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.ilustracoes .wrap img {
+  max-width: 290px;
+  margin: 5px;
+}
+
+.porque {
+  text-align: center;
+}
+.porque .porque_embrulho {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.porque .porque_embrulho article {
+  max-width: 250px;
+  padding: 20px;
+  background-color: var(--cor4);
+  margin: 1px;
+}
+.porque .porque_embrulho article p {
+  color: #8f8e8e;
+}
+
+.icon-porque {
+  font-size: 20px;
+  padding: 30px;
+  background-color: var(--cor3);
+  border-radius: 50%;
+  color: #fff;
+}
+
+#presarios .presarios article {
+  padding: 30px;
+  margin: 20px;
+  background-color: var(--cor4);
+  border-radius: 20px;
+  color: #fff;
+}
+
+#presarios .presarios article h1 {
+  color: black;
+  font-size: 40px;
+  font-weight: bold;
+  font-variant: small-caps;
+}
+#presarios .presarios article h2 {
+  color: var(--cor3);
+  font-size: 20px;
+  font-weight: normal;
+  font-variant: small-caps;
+}
+
+#presarios .presarios article span {
+  font-weight: bolder;
+  color: var(--cor3);
+}
+
+#presarios .presarios article:hover {
+  box-shadow: 0px 0px 10px var(--cor1);
+}
+
+#presarios .presarios article ul li {
+  line-height: 40px;
+}
+#presarios .presarios article ul {
+  list-style-position: inside;
+  list-style: disc;
+  color: #fff;
+  margin-bottom: 10px;
+  color: var(--cor5);
+}
+
+#presarios .presarios {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#presarios {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+#presarios .presarios {
+  display: flex;
+}
+
+#contactos {
+  max-width: 1200px;
+  margin: auto;
+  
+}
+
+#contactos .contactos {
+  background-color: var(--cor3);
+  padding: 20px;
+}
+
+#contactos .contactos article i{
+  font-size: 25px;
+  padding: 5px;
+  background-color: var(--cor3);
+  color: #fff;
+} 
+
+#contactos .contactos{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+
+
+#contactos .contactos article{
+  padding: 10px;
+  width: 33.3%;
+  display: flex;
+  align-items: center;
+}
