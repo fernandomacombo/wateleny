@@ -119,6 +119,9 @@ section #testemunhos > .testemunhos {
   max-width: 100%;
 }
 
-#contactos .contactos {
-  max-width: 100%;
+#contactos .contactos article{
+  padding: 10px;
+  width: 100%;
+  display: flex;
+  align-items: center;
 }
